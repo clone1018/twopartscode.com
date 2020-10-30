@@ -1,3 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "https://twopartscode.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Two Parts Code"
+theme = "hugo-journal"
+
+[params]
+  description = "Blog meta description."
+  githubUsername = "clone1018"
+  twitterUsername = "clone1018"
+  tagline = "Blog tagline. Shown under index title."
