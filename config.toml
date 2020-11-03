@@ -1,7 +1,7 @@
 baseURL = "https://twopartscode.com/"
 languageCode = "en-us"
 title = "Two Parts Code"
-theme = "hugo-journal"
+theme = "hugo-PaperMod"
 
 [params]
   description = "Blog meta description."
