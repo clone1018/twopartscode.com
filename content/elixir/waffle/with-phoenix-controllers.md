@@ -13,7 +13,7 @@ showToc: true
 * Waffle 1.1.3
 * Waffle Ecto 0.0.9
 
-In this tutorial we'll be showing you how to use Waffle and Waffle Ecto directly inside a traditional Phoenix Controller based application, our next guide covers how to use it more magically with Phoenix LiveView. Our example project will be a simple file upload tool users can use to store plain text files and images. If you are interested in using Waffle without Waffle Ecto, you'll just need to omit the imports and handle the state saving yourself.
+In this tutorial we'll be showing you how to use Waffle and Waffle Ecto directly inside a traditional Phoenix Controller based application, our next guide covers how to use it more magically with Phoenix LiveView. Our example project will be a simple file upload tool users can use to store plain text files and images. If you are interested in using Waffle without Waffle Ecto, you'll just need to omit the imports and handle the state saving yourself. We'll cover a basic walkthrough of this in the [advanced usage](/elixir/waffle/advanced-usage) article.
  
 > ### Previous Article
 > If you're looking for a quick intro to Waffle, please check out [Introduction to Waffle](/elixir/waffle/introduction-to-waffle).
@@ -174,6 +174,6 @@ Using the file either by showing it to users, or offering to download it is extr
 <%= Routes.static_url(@conn, WaffleExampleWeb.TextFileUpload.url(file.file)) %>
 ```
 
-## TODO
+So as you can see, adding a basic end-to-end file upload to a Phoenix application is super simple with Waffle. 
 
-Some final wrap up....
+# Next Article: Using Waffle with Live View

@@ -3,7 +3,7 @@ title: "Introduction to Waffle"
 date: 2020-10-30T11:37:29-04:00
 draft: false
 showToc: true
-
+weight: 1
 ---
 
 
@@ -12,6 +12,8 @@ showToc: true
 * PostgreSQL 13
 * Waffle 1.1.3
 * Waffle Ecto x.x.x
+
+Welcome to the first ever blog series on Two Parts Code! Our first highlight will be a library for Elixir called Waffle. It's a simple neat library that is essential for handling user uploads.
 
 
 ## Article Plan
