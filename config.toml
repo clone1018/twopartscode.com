@@ -1,10 +1,19 @@
 baseURL = "https://twopartscode.com/"
 languageCode = "en-us"
-title = "Two Parts Code"
+title = "TwoPartsCode"
 theme = "hugo-PaperMod"
 
 [params]
-  description = "Blog meta description."
+  description = "Programming cookbooks, live tutorials, and more!"
   githubUsername = "clone1018"
   twitterUsername = "clone1018"
-  tagline = "Blog tagline. Shown under index title."
+  showReadingTime = true
+
+[params.homeInfoParams]
+  title = "Two Parts Code, One Part Love"
+  content = "Programming Cookbooks, Live Tutorials, and more!"
+
+[[menu.main]]
+identifier = "events"
+name = "Live Events"
+url = "/events/"
